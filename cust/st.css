@@ -131,7 +131,7 @@ nav a {
 }
 
 nav a:hover {
-color: #14C6AE
+color: #14C6AE;
 }
 
 .input-wrap {
@@ -168,7 +168,7 @@ nav .fa-bars {
 }
 
 nav .fa-bars:hover {
-  color : #e54416
+  color : #e54416;
 }
 
 /* Here we can chage how the Dropdown changes */
