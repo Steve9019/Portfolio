@@ -8,12 +8,19 @@
 }
 
 /* This is where we can fix the height of the background */
-header{
+.wrapper-head{
   min-height: 15vh;
   background: url(images/background.png) no-repeat center;
   background-size: cover;
 }
-.header .navbar{
+
+not-main
+{
+  min-height: 40vh;
+  background: url(images/background.png) no-repeat center;
+  background-size: cover;
+}
+.wrapper-head .navbar{
   width: 85%;
   height: 15;
   margin: auto;
@@ -53,14 +60,6 @@ button {
   line-height: 30px;
 }
 
-.video-embed iframe {
-  width: 80%;
-  padding: -20%;
-  align-self: left;
-
-}
-
-
 /* This is for the pop up menu */
 ul {
   list-style-type: none;
@@ -92,12 +91,12 @@ nav{
   width: 100%;
   padding: 2em;
   z-index: 9;
-  transition: 0.7s;
+  transition: 0.3s;
   color: #fff;
 }
 
 .brand {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 nav .container-inner {
@@ -258,21 +257,14 @@ margin: 0 0.5em;
 }
 
 
-/* Making Main  */
-
-main{
-  min-height: 100vh;
-  background: url(images/under_const.jpg) no-repeat center;
-  background-size: cover;
-}
-
 /* Footer Making */
-footer {
+.footer-wrapper {
   line-height: 1.5;
+  /* height: 15px; */
   font-family: font-family: 'Poppins', sans-serif;
 }
 
-.footer .container {
+.footer-wrapper .container {
   max-width: 1170px;
   margin: auto;
 }
@@ -286,11 +278,7 @@ ul {
   list-style: none;
 }
 
-footer{
-  min-height: 10vh;
-}
-
-.footer {
+.footer-wrapper {
   background: #24262b;
   padding: 30px 0;
 }
@@ -383,4 +371,67 @@ background-color: #ffffff;
   .footer-col {
     width: 100%;
   }
+}
+
+
+
+/* Making Main  */
+
+/* This will get the display side by side */
+/* asdasd */
+
+.container-main-wip {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/background.png);
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.card-wip{
+    background: #D3D3D3;
+  width: 300px;
+  margin: 30px;
+  border-radius: 15px;
+  border-width: thick;
+}
+
+
+.card-image-wip{
+
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.wip{
+  background-image: url(images/working.jpg);
+}
+
+.car-2{
+  background-image: url(images/working.jpg);
+}
+
+.car-3{
+  background-image: url(images/working.jpg);
+}
+
+
+.card h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.card p{
+  padding: 10px;
+  line-height: 20px;
+}
+
+.card:hover {
+  background-color: rgb(62,62,62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
 }
