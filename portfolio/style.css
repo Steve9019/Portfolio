@@ -45,6 +45,21 @@
       border: 3px solid #000000;
   }
 
+/* Download Resume Function */
+.download.card{
+  height: 200px;
+  cursor: pointer;
+  justify-content: center;
+}
+.download:hover {
+    border: 3px solid #ffffff;
+}
+
+.download p{
+  text-align: center;
+}
+
+
 /* services section css */
 .servicesText.card {
     height: 300px;
