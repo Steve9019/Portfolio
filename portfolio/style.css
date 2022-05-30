@@ -51,6 +51,7 @@
   cursor: pointer;
   justify-content: center;
 }
+
 .download:hover {
     border: 3px solid #ffffff;
 }
